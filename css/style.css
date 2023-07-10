@@ -1,0 +1,18 @@
+:root {
+
+    --color-de-fondo: #ffff;
+    --color-de-link: #000;
+    --color-search-bar: #f5f5f5;
+    --color-icon: #888;
+    --color-azul: #2A7AE4;
+   
+}
+
+body {
+
+    font-family: 'Raleway';
+    margin: 0;
+    padding: 0;
+    line-height: 1;
+
+}
