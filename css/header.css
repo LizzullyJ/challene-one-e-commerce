@@ -1,10 +1,10 @@
 /* Estilos para la sección de menú */
 .menu {
     background-color: var(--color-de-fondo);
-    padding: 1rem;
+    padding: 1rem 5rem;
     display: flex;
     align-items: center;
-    justify-content: space-around;
+    justify-content: space-between;
 }
 
 /* Estilos para el encabezado del menú */
@@ -65,6 +65,9 @@
 
 /* Estilos para Tablets*/
 @media (max-width: 768px) {
+    .menu{
+        padding: inherit;
+    }
     .menu__header__logo img {
         max-width: 100px;
         padding-right: 2rem;
