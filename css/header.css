@@ -1,0 +1,91 @@
+/* Estilos para la sección de menú */
+.menu {
+    background-color: var(--color-de-fondo);
+    padding: 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+/* Estilos para el encabezado del menú */
+.menu__header {
+    display: flex;
+    align-items: center;
+}
+
+/* Estilos para el logo del menú */
+.menu__header__logo img {
+    max-width: 150px;
+    padding-right: 3rem;
+}
+
+/* Estilos para la barra de búsqueda del menú */
+.menu__header__search {
+    display: flex;
+    align-items: center;
+    background: var(--color-search-bar);
+    padding: 1rem;
+    border-radius: 50px;
+}
+
+.menu__header__search-input {
+    border: none;
+    background: none;
+    width: 25rem;
+}
+
+.menu__header__search-input:focus {
+    outline: none;
+}
+
+.menu__header__search-icon {
+    color: var(--color-icon);
+    margin-left: .5rem;
+}
+
+#icon__search {
+    display: none;
+}
+
+/* Estilos para el botón de inicio de sesión del menú */
+.menu__header__login-button {
+    background-color: var(--color-de-fondo);
+    color: var(--color-azul);
+    border-color: var(--color-azul);
+    border-width: 1px;
+    padding: 10px 20px;
+    border-radius: 5px;
+}
+
+.menu__header__login-button:hover {
+    background-color: var(--color-azul);
+    color: var(--color-de-fondo);
+    cursor: pointer;
+}
+
+/* Estilos para Tablets*/
+@media (max-width: 768px) {
+    .menu__header__logo img {
+        max-width: 100px;
+        padding-right: 2rem;
+    }
+
+    .menu__header__search-input {
+        width: 15rem;
+    }
+}
+
+/* Estilos para móviles */
+@media (max-width: 425px) {
+    .menu__header__search {
+        display: none;
+    }
+
+    #icon__search {
+        display: block;
+    }
+
+    .menu__header__logo img {
+        padding-right: 1rem;
+    }
+}
