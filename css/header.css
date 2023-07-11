@@ -53,7 +53,7 @@
     color: var(--color-azul);
     border-color: var(--color-azul);
     border-width: 1px;
-    padding: 10px 60px;
+    padding: 10px 50px;
     border-radius: 5px;
 }
 
@@ -65,9 +65,10 @@
 
 /* Estilos para Tablets*/
 @media (max-width: 768px) {
-    .menu{
+    .menu {
         padding: 1rem 3%;
     }
+
     .menu__header__logo img {
         max-width: 100px;
         padding-right: 2rem;
@@ -75,6 +76,10 @@
 
     .menu__header__search-input {
         width: 15rem;
+    }
+
+    .menu__header__login-button {
+        padding: 10px 30px;
     }
 }
 
