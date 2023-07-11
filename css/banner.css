@@ -25,7 +25,7 @@
 .banner__content-title {
     font-size: 52px;
     font-weight: bold;
-    margin-bottom: 10px;
+    margin-bottom: 5px;
 }
 
 .banner__content-text {
@@ -40,7 +40,7 @@
     background-color: var(--color-azul);
     color: var(--color-de-fondo);
     border: none;
-    padding: 10px 20px;
+    padding: 10px 15px;
     border-radius: 5px;
     font-size: 16px;
 }
@@ -54,7 +54,11 @@
 
 
 /* Estilos para tablets */
-@media (max-width: 768px) {}
+@media (max-width: 768px) {
+    .banner__content {
+        left: 3%;
+    }
+}
 
 /* Estilos para dispositivos móviles */
 @media (max-width: 480px) {
@@ -70,7 +74,10 @@
 
     .banner__content-text {
         font-size: 14px;
+    }
 
+    .banner__content-button {
+        font-size: 12px;
     }
 
 }
