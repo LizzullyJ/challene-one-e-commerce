@@ -71,9 +71,11 @@
   /* Estilos para tablets */
   @media (max-width: 768px) {
     .rodapie__box {
-      /* flex-direction: column; */
+       flex-direction: column;
       flex-wrap: wrap;
-      align-items: flex-start;
+      /* column-count: 2;
+      flex: 1;
+      align-items: flex-start; */
     }
   
     .rodapie__logo {
