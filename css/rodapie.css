@@ -1,0 +1,90 @@
+
+
+/* Estilos para la sección rodapie */
+.rodapie{
+    background: var(--color-rodapie);
+    padding: 3rem 5%;
+}
+  
+  /* Estilos para el contenedor principal */
+  .rodapie__box {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    
+  }
+  
+  /* Estilos para el logo */
+  .rodapie__logo img {
+    width: 200px;
+    height: auto;
+  }
+  
+  /* Estilos para los enlaces */
+  .rodapie__enlaces-lista {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .rodapie__enlaces-item {
+    margin-bottom: 1.25rem;
+  }
+
+  .rodapie__enlaces-item a {
+    text-decoration: none;
+    font-weight: bold;
+    color: black;
+  } 
+
+  /* Estilos para el formulario */
+  .rodapie__formulario {
+    margin-top: 20px;
+    width: 40%;
+  }
+  
+  .rodapie__formulario-titulo {
+    margin-bottom: 10px;
+  }
+  
+  .rodapie__formulario-label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+  }
+  
+  .rodapie__formulario-input,
+  .rodapie__formulario-textarea {
+    width: 100%;
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .input-message-error {
+    display: none;
+    color: red;
+    font-size: 12px;
+    margin-top: 5px;
+  }
+  
+  /* Estilos para tablets */
+  @media (max-width: 768px) {
+    .rodapie__box {
+      /* flex-direction: column; */
+      flex-wrap: wrap;
+      align-items: flex-start;
+    }
+  
+    .rodapie__logo {
+      margin-bottom: 10px;
+    }
+  
+    .rodapie__enlaces-item {
+      margin-bottom: 5px;
+    }
+  
+    .rodapie__formulario {
+      width: 50%;
+    }
+  }
