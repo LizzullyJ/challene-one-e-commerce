@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <head>
+            <meta charset="utf-8">
+            <meta http-equiv="X-UA-Compatible" content="IE=edge">
+            <title></title>
+            <meta name="description" content>
+            <meta name="viewport" content="width=device-width, initial-scale=1">
+            <script src="https://kit.fontawesome.com/1772aade43.js"
+                crossorigin="anonymous"></script>
+            <link rel="stylesheet" href="./css/normalize.css">
+            <link rel="stylesheet" href="./css/reset.css">
+            <link rel="stylesheet" href="./css/style.css">
+            <link rel="stylesheet" href="./css/header.css">
+            <link rel="stylesheet" href="./css/rodapie.css">
+            <link rel="stylesheet" href="./css/footer.css">
+            <link
+                href="https://fonts.googleapis.com/css2?family=Raleway:wght@500&display=swap"
+                rel="stylesheet">
+        </head>
+    </head>
+    <body>
+        <div class="login">
+            <!-- Seccion header -->
+            <section class="menu">
+                <header class="menu__header">
+                    <div class="menu__header__logo">
+                        <img src="./assets/Logo.png" alt="Logo AluraGeek">
+                    </div>
+                    <div class="menu__header__search">
+                        <input type="text" class="menu__header__search-input"
+                            placeholder="Buscar">
+                        <i class="menu__header__search-icon fas fa-search"></i>
+                    </div>
+                </header>
+                <div class="menu__header__login">
+                    <button class="menu__header__login-button">Menú Administrador</button>
+                </div>
+                <i class="menu__header__search-icon fas fa-search"
+                    id="icon__search"></i>
+            </section>
+            <!-- ------------------------OTRa SEECION---------------------- -->
+
+            <section></section>
+            <!-- ------------------------__________---------------------- -->
+            <!-- Sección Rodapie -->
+            <section class="rodapie">
+                <div class="rodapie__box">
+                    <div class="rodapie__logo">
+                        <img src="./assets/logo.png" alt="Logo AluraGeek">
+                    </div>
+                    <div class="rodapie__enlaces">
+                        <ul class="rodapie__enlaces-lista">
+                            <li class="rodapie__enlaces-item"><a href="#">¿Quiénes
+                                    somos?</a></li>
+                            <li class="rodapie__enlaces-item"><a href="#">Política
+                                    de Privacidad</a></li>
+                            <li class="rodapie__enlaces-item"><a href="#">Programa
+                                    de fidelidad</a></li>
+                            <li class="rodapie__enlaces-item"><a href="#">Nuestras
+                                    Tiendas</a></li>
+                            <li class="rodapie__enlaces-item"><a href="#">Quiero
+                                    ser franquiciado</a></li>
+                            <li class="rodapie__enlaces-item"><a href="#">Anuncie
+                                    aquí</a></li>
+                        </ul>
+                    </div>
+                    <div class="rodapie__formulario">
+                        <h2 class="rodapie__formulario-titulo">Hable con
+                            nosotros</h2>
+                        <div class="rodapie__formulario-campo">
+                            <label class="rodapie__formulario-label"
+                                for="nombre">Nombre:</label>
+                            <input class="rodapie__formulario-input" type="text"
+                                id="nombre" name="nombre">
+                            <span class="input-message-error">Este campo no es
+                                valido</span>
+                        </div>
+                        <div class="rodapie__formulario-campo">
+                            <label class="rodapie__formulario-label"
+                                for="mensaje">Mensaje:</label>
+                            <textarea class="rodapie__formulario-input"
+                                id="mensaje" name="mensaje"></textarea>
+                            <span class="input-message-error">Este campo no es
+                                valido</span>
+                        </div>
+                    </div>
+                </div>
+
+            </section>
+            <footer class="footer">
+                <div>
+                    <p>Desarrollado por Sandra Lizzully Jacquez Fraire</p>
+                    <p>2023</p>
+                </div>
+            </footer>
+
+            <script src async defer></script>
+        </div>
+    </body>
+</html>
+
+
+
+
+
+Haz el css de este codigo para que en tablets se muestre rodapie__logo y rodapie__enlaces en columna y rodapie__formulario se muestre a un lado de esa columna. y para celulares se muestre todo en columna
+
+<section class="rodapie">
+   <div class="rodapie__box">
+       <div class="rodapie__logo">
+           <img src="./assets/logo.png" alt="Logo AluraGeek">
+       </div>
+       <div class="rodapie__enlaces">
+           <ul class="rodapie__enlaces-lista">
+               <li class="rodapie__enlaces-item"><a href="#">¿Quiénes somos?</a></li>
+               <li class="rodapie__enlaces-item"><a href="#">Política de Privacidad</a></li>
+               <li class="rodapie__enlaces-item"><a href="#">Programa de fidelidad</a></li>
+               <li class="rodapie__enlaces-item"><a href="#">Nuestras Tiendas</a></li>
+               <li class="rodapie__enlaces-item"><a href="#">Quiero ser franquiciado</a></li>
+               <li class="rodapie__enlaces-item"><a href="#">Anuncie aquí</a></li>
+           </ul>
+       </div>
+       <div class="rodapie__formulario">
+           <h2 class="rodapie__formulario-titulo">Hable con nosotros</h2>
+           <div class="rodapie__formulario-campo">
+               <label class="rodapie__formulario-label" for="nombre">Nombre:</label>
+               <input class="rodapie__formulario-input" type="text" id="nombre" name="nombre">
+               <span class="input-message-error">Este campo no es valido</span>
+           </div>
+           <div class="rodapie__formulario-campo">
+               <label class="rodapie__formulario-label" for="mensaje">Mensaje:</label>
+               <textarea class="rodapie__formulario-input" id="mensaje" name="mensaje"></textarea>
+               <span class="input-message-error">Este campo no es valido</span>
+           </div>
+       </div>
+   </div>
