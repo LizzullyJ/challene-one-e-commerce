@@ -6,7 +6,7 @@
     <head>
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <title></title>
+        <title>LOGIN</title>
         <meta name="description" content>
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <script src="https://kit.fontawesome.com/1772aade43.js" crossorigin="anonymous"></script>
@@ -43,13 +43,13 @@
                 <h2 class="login__formulario-titulo">Iniciar sesión</h2>
                 <form class="login__formulario-form" action="">
                     <div class="login__formulario-campo">
-                        <input class="login__formulario-input" type="text" id="nombre" name="nombre">
-                        <label class="login__formulario-label" for="nombre">Usuario:</label>
+                        <input class="login__formulario-input" type="text" id="usuario" name="usuario" placeholder="Usuario:">
+                        <label class="login__formulario-label" for="usuario">Usuario:</label>
                         <span class="input-message-error">Este campo no es valido</span>
                     </div>
                     <div class="login__formulario-campo">
-                        <input class="login__formulario-input" type="text" id="nombre" name="nombre">
-                        <label class="login__formulario-label" for="nombre">Contraseña:</label>
+                        <input class="login__formulario-input" type="text" id="contrasena" name="contrasena" placeholder="Contraseña:">
+                        <label class="login__formulario-label" for="contrasena">Contraseña:</label>
                         <span class="input-message-error">Este campo no es valido</span>
                     </div>
 
@@ -58,53 +58,49 @@
             </div>
         </section>
         <!-- ------------------------__________---------------------- -->
-        <!-- Sección Rodapie -->
-        <section class="rodapie">
-            <div class="rodapie__box">
+    <!-- Sección Rodapie -->
+    <section class="rodapie">
+        <div class="rodapie__box">
+            <div class="rodapie__logo__enlaces">
                 <div class="rodapie__logo">
                     <img src="./assets/logo.png" alt="Logo AluraGeek">
                 </div>
-                <div class="rodapie__enlaces">
+                <div class="rodapie__enlaces"> 
                     <ul class="rodapie__enlaces-lista">
-                        <li class="rodapie__enlaces-item"><a href="#">¿Quiénes
-                                somos?</a></li>
-                        <li class="rodapie__enlaces-item"><a href="#">Política
-                                de Privacidad</a></li>
-                        <li class="rodapie__enlaces-item"><a href="#">Programa
-                                de fidelidad</a></li>
-                        <li class="rodapie__enlaces-item"><a href="#">Nuestras
-                                Tiendas</a></li>
-                        <li class="rodapie__enlaces-item"><a href="#">Quiero
-                                ser franquiciado</a></li>
-                        <li class="rodapie__enlaces-item"><a href="#">Anuncie
-                                aquí</a></li>
+                        <li class="rodapie__enlaces-item"><a href="#">¿Quiénes somos?</a></li>
+                        <li class="rodapie__enlaces-item"><a href="#">Política de Privacidad</a></li>
+                        <li class="rodapie__enlaces-item"><a href="#">Programa de fidelidad</a></li>
+                        <li class="rodapie__enlaces-item"><a href="#">Nuestras Tiendas</a></li>
+                        <li class="rodapie__enlaces-item"><a href="#">Quiero ser franquiciado</a></li>
+                        <li class="rodapie__enlaces-item"><a href="#">Anuncie aquí</a></li>
                     </ul>
                 </div>
-                <div class="rodapie__formulario">
-                    <h2 class="rodapie__formulario-titulo">Hable con
-                        nosotros</h2>
-                    <div class="rodapie__formulario-campo">
-                        <label class="rodapie__formulario-label" for="nombre">Nombre:</label>
-                        <input class="rodapie__formulario-input" type="text" id="nombre" name="nombre">
-                        <span class="input-message-error">Este campo no es
-                            valido</span>
-                    </div>
-                    <div class="rodapie__formulario-campo">
-                        <label class="rodapie__formulario-label" for="mensaje">Mensaje:</label>
-                        <textarea class="rodapie__formulario-input" id="mensaje" name="mensaje"></textarea>
-                        <span class="input-message-error">Este campo no es
-                            valido</span>
-                    </div>
+            </div>
+            <div class="rodapie__formulario">
+                <h2 class="rodapie__formulario-titulo">Hable con
+                    nosotros</h2>
+                <div class="rodapie__formulario-campo">
+                    <input class="rodapie__formulario-input" type="text" id="nombre" name="nombre" placeholder="Nombre:">
+                    <label class="rodapie__formulario-label" for="nombre">Nombre:</label>
+                    <span class="input-message-error">Este campo no es
+                        valido</span>
+                </div>
+                <div class="rodapie__formulario-campo">
+                    <textarea class="rodapie__formulario-input" rows="4" id="mensaje" name="mensaje", placeholder="Mensaje:"></textarea>
+                    <label class="rodapie__formulario-label" for="mensaje">Mensaje:</label>
+                    <span class="input-message-error">Este campo no es
+                        valido</span>
                 </div>
             </div>
+        </div>
 
-        </section>
-        <footer class="footer">
-            <div>
-                <p>Desarrollado por Sandra Lizzully Jacquez Fraire</p>
-                <p>2023</p>
-            </div>
-        </footer>
+    </section>
+    <footer class="footer">
+        <div>
+            <p>Desarrollado por Sandra Lizzully Jacquez Fraire</p>
+            <p>2023</p>
+        </div>
+    </footer>
 
         <script src async defer></script>
     </div>

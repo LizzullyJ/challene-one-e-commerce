@@ -171,18 +171,24 @@
 
 /* Estilos para tablets */
 @media (max-width: 768px) {
+  .rodapie__formulario-titulo {
+    font-size: 1rem;
+    padding-bottom: 0;
+  
+  }
   .rodapie {
   
     padding: 1rem 3%;
+  }
+  .rodapie__logo__enlaces {
+    flex-direction: column;
+    
   }
   .rodapie__box {
     flex-direction: row;
   }
 
-  .rodapie__logo__enlaces {
-    flex-direction: column;
-    
-  }
+
   .rodapie__enlaces{
     margin-left: 0;
   }
