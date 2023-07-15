@@ -41,7 +41,7 @@
     .galeria__item:nth-child(n+5) {
         display: none;
       }
-      .galeria__item {
+      .galeria__item{
         flex-basis: calc(25% - 2rem);
    
       }
