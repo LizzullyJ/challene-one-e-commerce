@@ -1,0 +1,83 @@
+.productos {
+    padding: 3rem 5%;
+}
+
+.productos__box {
+    margin-bottom: 20px;
+}
+
+.productos__header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 15px;
+}
+
+.productos__titulo {
+    font-size: 2rem;
+}
+
+.productos__list {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(170px, 1fr));
+    gap: 20px;
+}
+
+.productos__item {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    text-align: start;
+    padding: 5px;
+    background-color: var(--color-de-fondo);
+    border-radius: 5px;
+}
+
+.productos__item img {
+    width: 100%;
+    max-height: auto;
+    object-fit: cover;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+.productos__item-nombre {
+    font-size: 1.2rem;
+    margin-bottom: 5px;
+}
+
+.productos__item-precio {
+    font-size: 1rem;
+    margin-bottom: 10px;
+}
+
+.productos__item-enlace {
+    text-decoration: none;
+    color: var(--color-azul);
+}
+
+.rodapie__formulario-boton {
+    background-color: var(--color-azul);
+    color: var(--color-de-fondo);
+    border: none;
+    padding: 10px 20px;
+    font-size: 1rem;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.rodapie__formulario-boton:hover {
+    background-color: var(--color-de-fondo);
+    color: var(--color-azul);
+}
+
+@media (max-width: 425px) {
+    .productos__header {
+        flex-direction: column;
+        align-items: start;
+    }
+
+    .productos__list {
+        grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+    }
+}
