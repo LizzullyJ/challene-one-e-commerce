@@ -1,0 +1,12 @@
+.formulario__producto {
+    background: var(--color-search-bar);
+    padding: 3rem 5%;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .formulario__box{
+    width: 50%;
+  }

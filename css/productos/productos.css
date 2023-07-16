@@ -71,6 +71,12 @@
     color: var(--color-azul);
 }
 
+@media (max-width: 768px) {
+    .productos__titulo {
+        font-size: 1.5rem;
+    }
+}
+
 @media (max-width: 425px) {
     .productos__header {
         flex-direction: column;
