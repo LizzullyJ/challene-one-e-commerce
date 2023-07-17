@@ -72,12 +72,18 @@
 }
 
 @media (max-width: 768px) {
+    .productos {
+        padding: 1rem 3%;
+    }
     .productos__titulo {
         font-size: 1.5rem;
     }
 }
 
 @media (max-width: 425px) {
+    .productos {
+        padding: 1rem 3%;
+    }
     .productos__header {
         flex-direction: column;
         align-items: start;
