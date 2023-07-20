@@ -10,3 +10,17 @@
   .formulario__box{
     width: 50%;
   }
+
+  @media (max-width: 768px) {
+    .formulario__producto {
+      padding: 4rem 3%;
+    }
+    .formulario__box{
+      width: 80%;
+    }
+  }
+  
+  /* Estilos para celulares */
+  @media (max-width: 480px) {
+  
+  }

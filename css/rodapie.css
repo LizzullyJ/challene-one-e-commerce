@@ -1,4 +1,5 @@
 /* Estilos para la sección rodapie */
+
 .rodapie {
   background-color: var(--color-rodapie);
   padding: 1rem 5%;
@@ -25,7 +26,7 @@
 
 /* Estilos para los enlaces */
 .rodapie__enlaces{
-  margin-left: 6rem;
+  margin-left: 5rem;
 }
 
 
@@ -180,6 +181,8 @@
   
     padding: 1rem 3%;
   }
+
+
   .rodapie__logo__enlaces {
     flex-direction: column;
     
@@ -192,8 +195,10 @@
   .rodapie__enlaces{
     margin-left: 0;
   }
+
   .rodapie__formulario {
     margin-top: 0;
+    width: 70%;
   }
 }
 
@@ -211,6 +216,7 @@
   .rodapie__formulario {
     margin-top: 20px;
     width: 100%;
+
   }
 
   .rodapie__enlaces-item,
