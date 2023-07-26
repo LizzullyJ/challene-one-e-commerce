@@ -15,23 +15,6 @@
     
 }
 
-.galeria__list {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-}
-
-.galeria__item {
-    flex-basis: calc(16.66% - 2rem);
-    margin-bottom: 1.25rem;
-  }
-
-.galeria__categoria-enlace,
-.galeria__item-enlace {
-  text-decoration: none;
-  color: var(--color-azul);
-}
-
 /* Estilos para tablets y moviles*/
 @media (max-width: 768px) {
     .galeria {
@@ -41,9 +24,6 @@
     .galeria__item:nth-child(n+5) {
         display: none;
       }
-      .galeria__item{
-        flex-basis: calc(25% - 2rem);
-   
-      }
+
 }
 

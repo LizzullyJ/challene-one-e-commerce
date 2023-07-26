@@ -15,8 +15,10 @@
         <link rel="stylesheet" href="./css/style.css">
         <link rel="stylesheet" href="./css/header.css">
         <link rel="stylesheet" href="./css/detalles_producto/detalle.css">
-        <link rel="stylesheet" href="./css/productos/productos.css">
+        <link rel="stylesheet" href="./css/productos.css">
+        <link rel="stylesheet" href="./css/galeria.css">
         <link rel="stylesheet" href="./css/rodapie.css">
+        <link rel="stylesheet" href="./css/formularios.css">
         <link rel="stylesheet" href="./css/footer.css">
         <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@500&display=swap" rel="stylesheet">
     </head>
@@ -44,7 +46,7 @@
                 <div class="detalle-producto__imagen">
                     <img src="./assets/starwars1.png" alt="Imagen del producto">
                 </div>
-                <div class="detalle-producto">
+                <div class="detalle-producto__box">
                     <h2 class="detalle-producto__nombre">Star Wars 1</h2>
                     <p class="detalle-producto__precio">$60.00</p>
                     <p class="detalle-producto__descripcion">Do in ex nisi ea sit labore adipisicing sint amet id enim esse.
@@ -60,37 +62,37 @@
 
                 </div>
                 <div class="productos__list">
-                    <div class="productos__item">
+                    <div class="productos__item galeria__item">
                         <img src="./assets/starwars2.png" alt="Star Wars 2">
                         <h4 class="productos__item-nombre">Star Wars 2</h4>
                         <p class="productos__item-precio">$60.00</p>
                         <a href="#" class="productos__item-enlace">Ver Producto</a>
                     </div>
-                    <div class="productos__item">
+                    <div class="productos__item galeria__item">
                         <img src="./assets/starwars3.png" alt="Star Wars 2">
                         <h4 class="productos__item-nombre">Star Wars 3</h4>
                         <p class="productos__item-precio">$60.00</p>
                         <a href="#" class="productos__item-enlace">Ver Producto</a>
                     </div>
-                    <div class="productos__item">
+                    <div class="productos__item galeria__item">
                         <img src="./assets/starwars4.png" alt="Star Wars 2">
                         <h4 class="productos__item-nombre">Star Wars 4</h4>
                         <p class="productos__item-precio">$60.00</p>
                         <a href="#" class="productos__item-enlace">Ver Producto</a>
                     </div>
-                    <div class="productos__item">
+                    <div class="productos__item galeria__item">
                         <img src="./assets/starwars5.png" alt="Star Wars 2">
                         <h4 class="productos__item-nombre">Star Wars 5</h4>
                         <p class="productos__item-precio">$60.00</p>
                         <a href="#" class="productos__item-enlace">Ver Producto</a>
                     </div>
-                    <div class="productos__item">
+                    <div class="productos__item galeria__item">
                         <img src="./assets/starwars6.png" alt="Star Wars 2">
                         <h4 class="productos__item-nombre">Star Wars 6</h4>
                         <p class="productos__item-precio">$60.00</p>
                         <a href="#" class="productos__item-enlace">Ver Producto</a>
                     </div>
-                    <div class="productos__item">
+                    <div class="productos__item galeria__item">
                         <img src="./assets/consola1.png" alt="Consolas 1">
                         <h4 class="productos__item-nombre">Consolas 1</h4>
                         <p class="productos__item-precio">$29.99</p>
@@ -101,7 +103,62 @@
         </section>
 
         <!-- Sección Rodapie -->
-        <iframe src="rodapie.html" frameborder="0" width="100%" scrolling="no"></iframe>
+        <section class="rodapie">
+            <div class="rodapie__box">
+                <div class="rodapie__logo__enlaces">
+                    <div class="rodapie__logo">
+                        <img src="./assets/logo.png" alt="Logo AluraGeek">
+                    </div>
+                    <div class="rodapie__enlaces">
+                        <ul class="rodapie__enlaces-lista">
+                            <li class="rodapie__enlaces-item"><a href="#">¿Quiénes
+                                    somos?</a></li>
+                            <li class="rodapie__enlaces-item"><a href="#">Política
+                                    de Privacidad</a></li>
+                            <li class="rodapie__enlaces-item"><a href="#">Programa
+                                    de fidelidad</a></li>
+                            <li class="rodapie__enlaces-item"><a href="#">Nuestras
+                                    Tiendas</a></li>
+                            <li class="rodapie__enlaces-item"><a href="#">Quiero
+                                    ser franquiciado</a></li>
+                            <li class="rodapie__enlaces-item"><a href="#">Anuncie
+                                    aquí</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="rodapie__formulario">
+                    <h2 class="form__titulo">Hable con
+                        nosotros</h2>
+                    <form clas="form" action>
+                        <div class="form__campo">
+                            <input class="form__input" type="text"
+                                id="nombre"
+                                name="nombre" placeholder="Nombre:">
+                            <label class="form__label" for="nombre">Nombre:</label>
+                            <span class="input-message-error">Este campo no
+                                es
+                                valido</span>
+                        </div>
+                        <div class="form__campo">
+                            <textarea class="form__input" rows="4"
+                                id="mensaje"
+                                name="mensaje" , placeholder="Mensaje:"></textarea>
+                            <label class="form__label" for="mensaje">Mensaje:</label>
+                            <span class="input-message-error">Este campo no
+                                es
+                                valido</span>
+                        </div>
+                        <button class="form__button">Enviar</button>
+                    </div>
+                </div>
+            </form>
+        </section>
+        <footer class="footer">
+            <div>
+                <p>Desarrollado por Sandra Lizzully Jacquez Fraire</p>
+                <p>2023</p>
+            </div>
+        </footer>
 
         <script src async defer></script>
     </div>

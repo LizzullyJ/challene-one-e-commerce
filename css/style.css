@@ -7,7 +7,7 @@
     --color-azul: #2A7AE4;
     --color-rodapie: #EAF2FD;
     --warning-color: #cc3300;
-   
+
 }
 
 body {
@@ -15,17 +15,3 @@ body {
     margin: 0;
     padding: 0;
 }
-
-
-iframe{
-    height: 460px;
-}
-
-  
-  /* Estilos para celulares */
-  @media (mxn-width: 425px) {
-    iframe{
-        height: 760px;
-    }
-  }
-  
