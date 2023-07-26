@@ -3,6 +3,12 @@
 .rodapie {
   background-color: var(--color-rodapie);
   padding: 1rem 5%;
+  height: auto;
+}
+
+.footer {
+  text-align: center;
+  margin-top: 2rem;
 }
 
 /* Estilos para el contenedor principal */
@@ -25,18 +31,19 @@
 }
 
 /* Estilos para los enlaces */
-.rodapie__enlaces{
+.rodapie__enlaces {
   margin-left: 5rem;
 }
 
 
-.rodapie__enlaces-item{
-  margin-bottom:1.5rem;
+.rodapie__enlaces-item {
+  margin-bottom: 1.5rem;
   list-style: none;
 }
+
 .rodapie__enlaces-item a {
   text-decoration: none;
-  color: var(--color-de-link); 
+  color: var(--color-de-link);
 }
 
 /* Estilos para el formulario */
@@ -45,154 +52,25 @@
   width: 50%;
 }
 
-.rodapie__formulario-titulo {
-  font-size: 2rem;
-  padding-bottom: 1rem;
-
-}
-
-.rodapie__formulario-form {
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-}
-
-
-.rodapie__formulario-campo {
-  position: relative;
-  padding: 15px 0 0;
-  margin-top: 25px;
-  width: 100%;
-  background: var(--color-de-fondo);
-  border-radius: 5px;
-}
-
-.rodapie__formulario-input{
-  width: 100%;
-  border: 0;
-  border-bottom: 2px solid rgb(180, 178, 178);
-  outline: 0;
-  font-size: 1.3rem;
-  color: var(--color-font);
-  padding: 7px 0;
-  transition: border-color 0.2s;
-  background: transparent;
-
-
-}
-
-.rodapie__formulario-input::placeholder{
-  color: transparent;
-}
-
-.rodapie__formulario-input:placeholder-shown~.rodapie__formulario-label
-{
-  font-size: 1.3rem;
-  cursor: text;
-  top: 20px;
-}
-
-
-.rodapie__formulario-label {
-  position: absolute;
-  top: 0;
-  display: block;
-  transition: 0.2s;
-  font-size: 1rem;
-  color: var(--color-icon);
-
-  
-}
-
-.rodapie__formulario-input:focus{
-  ~.rodapie__formulario-label {
-      position: absolute;
-      top: 5px;
-      display: block;
-      transition: 0.2s;
-      font-size: 1rem;
-      color: var(--color-azul);
-      font-weight: 700;
-  }
-
-  padding-bottom: 6px;
-  font-weight: 700;
-  border-width: 3px;
-  border-image: linear-gradient(to right, var(--color-azul), var(--color-de-fondo));
-  border-image-slice: 1;
-}
-
-
-/* Invalid */
-.rodapie__formulario-campo--invalid {
-  margin-bottom: 0.5rem;
-}
-
-.rodapie__formulario-campo--invalid .rodapie__formulario-input {
-  ~.rodapie__formulario-label {   
-      color: var(--warning-color);       
-  }
-  border: 0;
-  border-bottom: 2px solid var(--warning-color);
-}
-
-.rodapie__formulario-campo--invalid .rodapie__formulario-label {
-  color: var(--warning-color);
-}
-
-.input-message-error {
-  display: none;
-}
-
-.rodapie__formulario-campo--invalid .input-message-error {
-  color: var(--warning-color);
-  display: block;
-  margin-top: 0.5rem;
-  padding-left: 0.5rem;
-}
-/* ----------------- */
-
-.rodapie__formulario-boton {
-  background: var(--color-azul);
-  border-color: var(--color-de-fondo);
-  border-width: 1px;
-  color: var(--color-de-fondo);
-  padding: 1rem;
-  width: fit-content;
-  margin-top: 25px;
-
-}
-.rodapie__formulario-boton:hover{
-  animation: shake 0.25s;
-  cursor: pointer;
-  background: var(--color-de-fondo);
-  border-color: var(--color-azul);
-  color: var(--color-azul);
-}
 
 /* Estilos para tablets */
 @media (max-width: 768px) {
-  .rodapie__formulario-titulo {
-    font-size: 1rem;
-    padding-bottom: 0;
-  
-  }
+
   .rodapie {
-  
     padding: 1rem 3%;
   }
 
-
   .rodapie__logo__enlaces {
     flex-direction: column;
-    
+
   }
+
   .rodapie__box {
     flex-direction: row;
   }
 
 
-  .rodapie__enlaces{
+  .rodapie__enlaces {
     margin-left: 0;
   }
 
@@ -210,9 +88,10 @@
   }
 
   .rodapie__enlaces-item {
-   text-align: center;
-    
+    text-align: center;
+
   }
+
   .rodapie__formulario {
     margin-top: 20px;
     width: 100%;

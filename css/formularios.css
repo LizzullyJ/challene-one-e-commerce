@@ -1,0 +1,127 @@
+  /* Estilos para formularios */
+  .form__titulo {
+      font-size: 2rem;
+      padding-bottom: .5rem;
+
+  }
+
+
+  .form__campo {
+      position: relative;
+      padding: 15px 0 0;
+      margin-top: 25px;
+      width: 100%;
+      background: var(--color-de-fondo);
+      border-radius: 5px;
+  }
+
+  .form__input {
+      width: 100%;
+      border: 0;
+      border-bottom: 2px solid rgb(180, 178, 178);
+      outline: 0;
+      font-size: 1.3rem;
+      color: var(--color-font);
+      padding: 7px 0;
+      transition: border-color 0.2s;
+      background: transparent;
+
+
+  }
+
+  .form__input::placeholder {
+      color: transparent;
+  }
+
+  .form__input:placeholder-shown~.form__label {
+      font-size: 1.3rem;
+      cursor: text;
+      top: 20px;
+  }
+
+
+  .form__label {
+      position: absolute;
+      top: 0;
+      display: block;
+      transition: 0.2s;
+      font-size: 1rem;
+      color: var(--color-icon);
+
+
+  }
+
+  .form__input:focus {
+      ~.form__label {
+          position: absolute;
+          top: 5px;
+          display: block;
+          transition: 0.2s;
+          font-size: 1rem;
+          color: var(--color-azul);
+          font-weight: 700;
+      }
+
+      padding-bottom: 6px;
+      font-weight: 700;
+      border-width: 3px;
+      border-image: linear-gradient(to right, var(--color-azul), var(--color-de-fondo));
+      border-image-slice: 1;
+  }
+
+
+  /* Invalid */
+  .form__campo--invalid {
+      margin-bottom: 0.5rem;
+  }
+
+  .form__campo--invalid .form__input {
+      ~.form__label {
+          color: var(--warning-color);
+      }
+
+      border: 0;
+      border-bottom: 2px solid var(--warning-color);
+  }
+
+  .form__campo--invalid .form__label {
+      color: var(--warning-color);
+  }
+
+  .input-message-error {
+      display: none;
+  }
+
+  .form__campo--invalid .input-message-error {
+      color: var(--warning-color);
+      display: block;
+      margin-top: 0.5rem;
+      padding-left: 0.5rem;
+  }
+
+  /* ----------------- */
+
+  .form__button {
+      background-color: var(--color-azul);
+      color: var(--color-de-fondo);
+      border: none;
+      padding: 10px 20px;
+      font-size: 1rem;
+      border-radius: 5px;
+      cursor: pointer;
+
+  }
+
+  .form__button:hover {
+      background: var(--color-rodapie);
+      color: var(--color-azul);
+      border: 1px solid var(--color-azul);
+  }
+
+  /* Estilos tablets y mobiles */
+  @media (max-width: 768px) {
+      .rodapie__formulario-titulo {
+          font-size: 1rem;
+          padding-bottom: 0;
+      }
+  }
