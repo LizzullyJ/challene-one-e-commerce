@@ -16,3 +16,16 @@ body {
     padding: 0;
 }
 
+
+iframe{
+    height: 460px;
+}
+
+  
+  /* Estilos para celulares */
+  @media (mxn-width: 425px) {
+    iframe{
+        height: 760px;
+    }
+  }
+  

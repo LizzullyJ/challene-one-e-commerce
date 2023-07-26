@@ -1,9 +1,11 @@
 /* Estilos para la sección rodapie */
+.todo{
+  height: 460px;
+}
 
 .rodapie {
   background-color: var(--color-rodapie);
   padding: 1rem 5%;
-  height: auto;
 }
 
 .footer {
