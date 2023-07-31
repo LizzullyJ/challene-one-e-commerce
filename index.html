@@ -9,6 +9,8 @@
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <script src="https://kit.fontawesome.com/1772aade43.js"
             crossorigin="anonymous"></script>
+        <link rel="stylesheet"
+            href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
         <link rel="stylesheet" href="./css/normalize.css">
         <link rel="stylesheet" href="./css/reset.css">
         <link rel="stylesheet" href="./css/style.css">
@@ -51,213 +53,235 @@
                     <h2 class="banner__content-title">Julio Promocional</h2>
                     <p class="banner__content-text">Productos seleccionados con
                         33% de descuento</p>
-                    <button class="banner__content-button">View Consolas</button>
+                    <button class="banner__content-button"
+                        id="view-consolas-button" onclick="scrollToConsolas()">View
+                        Consolas</button>
                 </div>
             </section>
-    
 
-        <!-- Seccion galería -->
-        <section class="galeria">
-            <!--  StarWars -->
-            <div class="galeria__categoria-box">
-                <div class="galeria__categoria-header">
-                    <h2 class="galeria__categoria-titulo">StarWars</h2>
-                    <a href="#" class="galeria__categoria-enlace">Ver todo <i
-                            class="galeria__categoria-icon fas fa-arrow-right"></i></a>
-                </div>
-                <div class="productos__list">
-                    <div class="productos__item galeria__item">
-                        <img src="./assets/starwars1.png" alt="Star Wars 1">
-                        <h4 class="productos__item-nombre">Star Wars 1</h4>
-                        <p class="productos__item-precio">$29.99</p>
-                        <a href="#" class="productos__item-enlace">Ver Producto</a>
+            <!-- Seccion galería -->
+            <section class="galeria">
+                <!--  StarWars -->
+                <div class="galeria__categoria-box">
+                    <div class="galeria__categoria-header">
+                        <h2 class="galeria__categoria-titulo">StarWars</h2>
+                        <a href="#" class="galeria__categoria-enlace">Ver todo
+                            <i
+                                class="galeria__categoria-icon fas fa-arrow-right"></i></a>
                     </div>
-                    <div class="productos__item galeria__item">
-                        <img src="./assets/starwars2.png" alt="Star Wars 2">
-                        <h4 class="productos__item-nombre">Star Wars 2</h4>
-                        <p class="productos__item-precio">$60.00</p>
-                        <a href="#" class="productos__item-enlace">Ver Producto</a>
-                    </div>
-                    <div class="productos__item galeria__item">
-                        <img src="./assets/starwars3.png" alt="Star Wars 2">
-                        <h4 class="productos__item-nombre">Star Wars 3</h4>
-                        <p class="productos__item-precio">$60.00</p>
-                        <a href="#" class="productos__item-enlace">Ver Producto</a>
-                    </div>
-                    <div class="productos__item galeria__item">
-                        <img src="./assets/starwars4.png" alt="Star Wars 2">
-                        <h4 class="productos__item-nombre">Star Wars 4</h4>
-                        <p class="productos__item-precio">$60.00</p>
-                        <a href="#" class="productos__item-enlace">Ver Producto</a>
-                    </div>
-                    <div class="productos__item galeria__item">
-                        <img src="./assets/starwars5.png" alt="Star Wars 2">
-                        <h4 class="productos__item-nombre">Star Wars 5</h4>
-                        <p class="productos__item-precio">$60.00</p>
-                        <a href="#" class="productos__item-enlace">Ver Producto</a>
-                    </div>
-                    <div class="productos__item galeria__item">
-                        <img src="./assets/starwars6.png" alt="Star Wars 2">
-                        <h4 class="productos__item-nombre">Star Wars 6</h4>
-                        <p class="productos__item-precio">$60.00</p>
-                        <a href="#" class="productos__item-enlace">Ver Producto</a>
-                    </div>
-                </div>
-            </div>
-            <!--  Consolas -->
-            <div class="galeria__categoria-box">
-                <div class="galeria__categoria-header">
-                    <h2 class="galeria__categoria-titulo">Consolas</h2>
-                    <a href="#" class="galeria__categoria-enlace">Ver todo <i
-                            class="galeria__categoria-icon fas fa-arrow-right"></i></a>
-
-                </div>
-                <div class="productos__list">
-                    <div class="productos__item galeria__item">
-                        <img src="./assets/consola1.png" alt="Consolas 1">
-                        <h4 class="productos__item-nombre">Consolas 1</h4>
-                        <p class="productos__item-precio">$29.99</p>
-                        <a href="#" class="productos__item-enlace">Ver Producto</a>
-                    </div>
-                    <div class="productos__item galeria__item">
-                        <img src="./assets/consola2.png" alt="Consolas 2">
-                        <h4 class="productos__item-nombre">Consolas 2</h4>
-                        <p class="productos__item-precio">$60.00</p>
-                        <a href="#" class="productos__item-enlace">Ver Producto</a>
-                    </div>
-                    <div class="productos__item galeria__item">
-                        <img src="./assets/consola3.png" alt="Consolas 3">
-                        <h4 class="productos__item-nombre">Consolas 3</h4>
-                        <p class="productos__item-precio">$60.00</p>
-                        <a href="#" class="productos__item-enlace">Ver Producto</a>
-                    </div>
-                    <div class="productos__item galeria__item">
-                        <img src="./assets/consola4.png" alt="Consolas 4">
-                        <h4 class="productos__item-nombre">Consolas 4</h4>
-                        <p class="productos__item-precio">$60.00</p>
-                        <a href="#" class="productos__item-enlace">Ver Producto</a>
-                    </div>
-                    <div class="productos__item galeria__item">
-                        <img src="./assets/consola5.png" alt="Consolas 5">
-                        <h4 class="productos__item-nombre">Consolas 5</h4>
-                        <p class="productos__item-precio">$60.00</p>
-                        <a href="#" class="productos__item-enlace">Ver Producto</a>
-                    </div>
-                    <div class="productos__item galeria__item">
-                        <img src="./assets/consola6.png" alt="Consolas 6">
-                        <h4 class="productos__item-nombre">Consolas 6</h4>
-                        <p class="productos__item-precio">$60.00</p>
-                        <a href="#" class="productos__item-enlace">Ver Producto</a>
-                    </div>
-                </div>
-            </div>
-            <!-- Diversos -->
-            <div class="galeria__categoria-box">
-                <div class="galeria__categoria-header">
-                    <h2 class="galeria__categoria-titulo">Diversos</h2>
-                    <a href="#" class="galeria__categoria-enlace">Ver todo <i
-                            class="galeria__categoria-icon fas fa-arrow-right"></i></a>
-                </div>
-                <div class="productos__list">
-                    <div class="productos__item galeria__item">
-                        <img src="./assets/diversos1.png" alt="Diversos 1">
-                        <h4 class="productos__item-nombre">Diversos 1</h4>
-                        <p class="productos__item-precio">$29.99</p>
-                        <a href="#" class="productos__item-enlace">Ver Producto</a>
-                    </div>
-                    <div class="productos__item galeria__item">
-                        <img src="./assets/diversos2.png" alt="Diversos 2">
-                        <h4 class="productos__item-nombre">Diversos 2</h4>
-                        <p class="productos__item-precio">$60.00</p>
-                        <a href="#" class="productos__item-enlace">Ver Producto</a>
-                    </div>
-                    <div class="productos__item galeria__item">
-                        <img src="./assets/diversos3.png" alt="Diversos 3">
-                        <h4 class="productos__item-nombre">Diversos 3</h4>
-                        <p class="productos__item-precio">$60.00</p>
-                        <a href="#" class="productos__item-enlace">Ver Producto</a>
-                    </div>
-                    <div class="productos__item galeria__item">
-                        <img src="./assets/diversos4.png" alt="Diversos 4">
-                        <h4 class="productos__item-nombre">Diversos 4</h4>
-                        <p class="productos__item-precio">$60.00</p>
-                        <a href="#" class="productos__item-enlace">Ver Producto</a>
-                    </div>
-                    <div class="productos__item galeria__item">
-                        <img src="./assets/diversos5.png" alt="Diversos 5">
-                        <h4 class="productos__item-nombre">Diversos 5</h4>
-                        <p class="productos__item-precio">$60.00</p>
-                        <a href="#" class="productos__item-enlace">Ver Producto</a>
-                    </div>
-                    <div class="productos__item galeria__item">
-                        <img src="./assets/diversos6.png" alt="Diversos 6">
-                        <h4 class="productos__item-nombre">Diversos 6</h4>
-                        <p class="productos__item-precio">$60.00</p>
-                        <a href="#" class="productos__item-enlace">Ver Producto</a>
-                    </div>
-                </div>
-            </div>
-        </section>
-
-        <!-- Sección Rodapie -->
-        <section class="rodapie">
-            <div class="rodapie__box">
-                <div class="rodapie__logo__enlaces">
-                    <div class="rodapie__logo">
-                        <img src="./assets/logo.png" alt="Logo AluraGeek">
-                    </div>
-                    <div class="rodapie__enlaces">
-                        <ul class="rodapie__enlaces-lista">
-                            <li class="rodapie__enlaces-item"><a href="#">¿Quiénes
-                                    somos?</a></li>
-                            <li class="rodapie__enlaces-item"><a href="#">Política
-                                    de Privacidad</a></li>
-                            <li class="rodapie__enlaces-item"><a href="#">Programa
-                                    de fidelidad</a></li>
-                            <li class="rodapie__enlaces-item"><a href="#">Nuestras
-                                    Tiendas</a></li>
-                            <li class="rodapie__enlaces-item"><a href="#">Quiero
-                                    ser franquiciado</a></li>
-                            <li class="rodapie__enlaces-item"><a href="#">Anuncie
-                                    aquí</a></li>
-                        </ul>
-                    </div>
-                </div>
-                <div class="rodapie__formulario">
-                    <h2 class="form__titulo">Hable con
-                        nosotros</h2>
-                    <form clas="form" action>
-                        <div class="form__campo">
-                            <input class="form__input" type="text"
-                                id="nombre"
-                                name="nombre" placeholder="Nombre:">
-                            <label class="form__label" for="nombre">Nombre:</label>
-                            <span class="input-message-error">Este campo no
-                                es
-                                valido</span>
+                    <div class="productos__list">
+                        <div class="productos__item galeria__item">
+                            <img src="./assets/starwars1.png" alt="Star Wars 1">
+                            <h4 class="productos__item-nombre">Star Wars 1</h4>
+                            <p class="productos__item-precio">$29.99</p>
+                            <a href="#" class="productos__item-enlace">Ver
+                                Producto</a>
                         </div>
-                        <div class="form__campo">
-                            <textarea class="form__input" rows="4"
-                                id="mensaje"
-                                name="mensaje" , placeholder="Mensaje:"></textarea>
-                            <label class="form__label" for="mensaje">Mensaje:</label>
-                            <span class="input-message-error">Este campo no
-                                es
-                                valido</span>
+                        <div class="productos__item galeria__item">
+                            <img src="./assets/starwars2.png" alt="Star Wars 2">
+                            <h4 class="productos__item-nombre">Star Wars 2</h4>
+                            <p class="productos__item-precio">$60.00</p>
+                            <a href="#" class="productos__item-enlace">Ver
+                                Producto</a>
                         </div>
-                        <button class="form__button">Enviar</button>
+                        <div class="productos__item galeria__item">
+                            <img src="./assets/starwars3.png" alt="Star Wars 2">
+                            <h4 class="productos__item-nombre">Star Wars 3</h4>
+                            <p class="productos__item-precio">$60.00</p>
+                            <a href="#" class="productos__item-enlace">Ver
+                                Producto</a>
+                        </div>
+                        <div class="productos__item galeria__item">
+                            <img src="./assets/starwars4.png" alt="Star Wars 2">
+                            <h4 class="productos__item-nombre">Star Wars 4</h4>
+                            <p class="productos__item-precio">$60.00</p>
+                            <a href="#" class="productos__item-enlace">Ver
+                                Producto</a>
+                        </div>
+                        <div class="productos__item galeria__item">
+                            <img src="./assets/starwars5.png" alt="Star Wars 2">
+                            <h4 class="productos__item-nombre">Star Wars 5</h4>
+                            <p class="productos__item-precio">$60.00</p>
+                            <a href="#" class="productos__item-enlace">Ver
+                                Producto</a>
+                        </div>
+                        <div class="productos__item galeria__item">
+                            <img src="./assets/starwars6.png" alt="Star Wars 2">
+                            <h4 class="productos__item-nombre">Star Wars 6</h4>
+                            <p class="productos__item-precio">$60.00</p>
+                            <a href="#" class="productos__item-enlace">Ver
+                                Producto</a>
+                        </div>
                     </div>
                 </div>
-            </form>
-        </section>
-        <footer class="footer">
-            <div>
-                <p>Desarrollado por Sandra Lizzully Jacquez Fraire</p>
-                <p>2023</p>
-            </div>
-        </footer>
-    </div>
-        <script src async defer></script>
+                <!--  Consolas -->
+                <div class="galeria__categoria-box" id="consolas">
+                    <div class="galeria__categoria-header">
+                        <h2 class="galeria__categoria-titulo" >Consolas</h2>
+                        <a href="#" class="galeria__categoria-enlace">Ver todo
+                            <i
+                                class="galeria__categoria-icon fas fa-arrow-right"></i></a>
+
+                    </div>
+                    <div class="productos__list">
+                        <div class="productos__item galeria__item">
+                            <img src="./assets/consola1.png" alt="Consolas 1">
+                            <h4 class="productos__item-nombre">Consolas 1</h4>
+                            <p class="productos__item-precio">$29.99</p>
+                            <a href="#" class="productos__item-enlace">Ver
+                                Producto</a>
+                        </div>
+                        <div class="productos__item galeria__item">
+                            <img src="./assets/consola2.png" alt="Consolas 2">
+                            <h4 class="productos__item-nombre">Consolas 2</h4>
+                            <p class="productos__item-precio">$60.00</p>
+                            <a href="#" class="productos__item-enlace">Ver
+                                Producto</a>
+                        </div>
+                        <div class="productos__item galeria__item">
+                            <img src="./assets/consola3.png" alt="Consolas 3">
+                            <h4 class="productos__item-nombre">Consolas 3</h4>
+                            <p class="productos__item-precio">$60.00</p>
+                            <a href="#" class="productos__item-enlace">Ver
+                                Producto</a>
+                        </div>
+                        <div class="productos__item galeria__item">
+                            <img src="./assets/consola4.png" alt="Consolas 4">
+                            <h4 class="productos__item-nombre">Consolas 4</h4>
+                            <p class="productos__item-precio">$60.00</p>
+                            <a href="#" class="productos__item-enlace">Ver
+                                Producto</a>
+                        </div>
+                        <div class="productos__item galeria__item">
+                            <img src="./assets/consola5.png" alt="Consolas 5">
+                            <h4 class="productos__item-nombre">Consolas 5</h4>
+                            <p class="productos__item-precio">$60.00</p>
+                            <a href="#" class="productos__item-enlace">Ver
+                                Producto</a>
+                        </div>
+                        <div class="productos__item galeria__item">
+                            <img src="./assets/consola6.png" alt="Consolas 6">
+                            <h4 class="productos__item-nombre">Consolas 6</h4>
+                            <p class="productos__item-precio">$60.00</p>
+                            <a href="#" class="productos__item-enlace">Ver
+                                Producto</a>
+                        </div>
+                    </div>
+                </div>
+                <!-- Diversos -->
+                <div class="galeria__categoria-box">
+                    <div class="galeria__categoria-header">
+                        <h2 class="galeria__categoria-titulo">Diversos</h2>
+                        <a href="#" class="galeria__categoria-enlace">Ver todo
+                            <i
+                                class="galeria__categoria-icon fas fa-arrow-right"></i></a>
+                    </div>
+                    <div class="productos__list">
+                        <div class="productos__item galeria__item">
+                            <img src="./assets/diversos1.png" alt="Diversos 1">
+                            <h4 class="productos__item-nombre">Diversos 1</h4>
+                            <p class="productos__item-precio">$29.99</p>
+                            <a href="#" class="productos__item-enlace">Ver
+                                Producto</a>
+                        </div>
+                        <div class="productos__item galeria__item">
+                            <img src="./assets/diversos2.png" alt="Diversos 2">
+                            <h4 class="productos__item-nombre">Diversos 2</h4>
+                            <p class="productos__item-precio">$60.00</p>
+                            <a href="#" class="productos__item-enlace">Ver
+                                Producto</a>
+                        </div>
+                        <div class="productos__item galeria__item">
+                            <img src="./assets/diversos3.png" alt="Diversos 3">
+                            <h4 class="productos__item-nombre">Diversos 3</h4>
+                            <p class="productos__item-precio">$60.00</p>
+                            <a href="#" class="productos__item-enlace">Ver
+                                Producto</a>
+                        </div>
+                        <div class="productos__item galeria__item">
+                            <img src="./assets/diversos4.png" alt="Diversos 4">
+                            <h4 class="productos__item-nombre">Diversos 4</h4>
+                            <p class="productos__item-precio">$60.00</p>
+                            <a href="#" class="productos__item-enlace">Ver
+                                Producto</a>
+                        </div>
+                        <div class="productos__item galeria__item">
+                            <img src="./assets/diversos5.png" alt="Diversos 5">
+                            <h4 class="productos__item-nombre">Diversos 5</h4>
+                            <p class="productos__item-precio">$60.00</p>
+                            <a href="#" class="productos__item-enlace">Ver
+                                Producto</a>
+                        </div>
+                        <div class="productos__item galeria__item">
+                            <img src="./assets/diversos6.png" alt="Diversos 6">
+                            <h4 class="productos__item-nombre">Diversos 6</h4>
+                            <p class="productos__item-precio">$60.00</p>
+                            <a href="#" class="productos__item-enlace">Ver
+                                Producto</a>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Sección Rodapie -->
+            <section class="rodapie">
+                <div class="rodapie__box">
+                    <div class="rodapie__logo__enlaces">
+                        <div class="rodapie__logo">
+                            <img src="./assets/logo.png" alt="Logo AluraGeek">
+                        </div>
+                        <div class="rodapie__enlaces">
+                            <ul class="rodapie__enlaces-lista">
+                                <li class="rodapie__enlaces-item"><a href="#">¿Quiénes
+                                        somos?</a></li>
+                                <li class="rodapie__enlaces-item"><a href="#">Política
+                                        de Privacidad</a></li>
+                                <li class="rodapie__enlaces-item"><a href="#">Programa
+                                        de fidelidad</a></li>
+                                <li class="rodapie__enlaces-item"><a href="#">Nuestras
+                                        Tiendas</a></li>
+                                <li class="rodapie__enlaces-item"><a href="#">Quiero
+                                        ser franquiciado</a></li>
+                                <li class="rodapie__enlaces-item"><a href="#">Anuncie
+                                        aquí</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="rodapie__formulario">
+                        <h2 class="form__titulo">Hable con
+                            nosotros</h2>
+                        <form clas="form" action>
+                            <div class="form__campo">
+                                <input class="form__input" type="text"
+                                    id="nombre"
+                                    name="nombre" placeholder="Nombre:">
+                                <label class="form__label" for="nombre">Nombre:</label>
+                                <span class="input-message-error">Este campo no
+                                    es
+                                    valido</span>
+                            </div>
+                            <div class="form__campo">
+                                <textarea class="form__input" rows="4"
+                                    id="mensaje"
+                                    name="mensaje" , placeholder="Mensaje:"></textarea>
+                                <label class="form__label" for="mensaje">Mensaje:</label>
+                                <span class="input-message-error">Este campo no
+                                    es
+                                    valido</span>
+                            </div>
+                            <button class="form__button">Enviar</button>
+                        </div>
+                    </div>
+                </form>
+            </section>
+            <footer class="footer">
+                <div>
+                    <p>Desarrollado por Sandra Lizzully Jacquez Fraire</p>
+                    <p>2023</p>
+                </div>
+            </footer>
+        </div>
+        <script src="./js/button.js" async defer></script>
     </body>
 
 </html>
