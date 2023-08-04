@@ -1,148 +1,162 @@
 {
+    "categorias": [
+        {
+            "id": 1,
+            "name": "StarWars"
+        },
+        {
+            "id": 2,
+            "name": "Consolas"
+        },
+        {
+            "id": 3,
+            "name": "Diversos"
+        }
+    ],
     "productos": [
         {
             "id": "1",
-            "nombre": "Producto XYZ",
-            "precio": "6000",
+            "nombre": "StarWars 1",
+            "precio": 60,
             "imagen": "https://i.ibb.co/ydRhHsL/producto-1.png",
-            "categoria": "Star wars",
-            "descripcion": "Voluptas voluptatum quibusdam similique, class debitis alias maecenas eveniet ridiculus, facilis fusce! Ullam conubia? Sociis, minima malesuada habit."
+            "categoria": "StarWars",
+            "descripcion": "Amet ipsum Lorem esse sint deserunt excepteur ut. Non sit amet aliqua magna ullamco sit quis ut officia ad minim est. Tempor minim consequat aliquip sunt magna commodo. Anim aliquip id velit commodo dolor do culpa. Et mollit nisi ea eiusmod proident. Deserunt consequat mollit nostrud ullamco ipsum eiusmod exercitation nulla minim sit excepteur do dolor. Esse ut exercitation non enim irure exercitation ad."
         },
         {
             "id": "2",
-            "nombre": "Producto XYZ",
-            "precio": "6000",
+            "nombre": "StarWars 2",
+            "precio": 60,
             "imagen": "https://i.ibb.co/35bTz5c/producto-2.png",
-            "categoria": "Star wars",
-            "descripcion": "Voluptas voluptatum quibusdam similique, class debitis alias maecenas eveniet ridiculus, facilis fusce! Ullam conubia? Sociis, minima malesuada habit."
+            "categoria": "StarWars",
+            "descripcion": "Dolor dolore veniam ea esse. Ex ullamco velit elit non in labore ut sint magna cillum officia magna eu sunt. Pariatur sit nisi sint irure. Commodo qui fugiat dolor nisi qui tempor qui."
         },
         {
             "id": "3",
-            "nombre": "Producto XYZ",
-            "precio": "6000",
+            "nombre": "StarWars 3",
+            "precio": 60,
             "imagen": "https://i.ibb.co/1TybsXT/producto-3.png",
-            "categoria": "Star wars",
-            "descripcion": "Voluptas voluptatum quibusdam similique, class debitis alias maecenas eveniet ridiculus, facilis fusce! Ullam conubia? Sociis, minima malesuada habit."
+            "categoria": "StarWars",
+            "descripcion": "Aliquip adipisicing do officia culpa aute commodo ad officia amet qui. Ut exercitation enim deserunt excepteur nisi. Officia adipisicing magna quis proident velit ex eu tempor. Dolor aliquip laborum incididunt sunt proident aliqua sit id aute. Sit officia elit cupidatat mollit sunt sint officia enim et. Nulla tempor esse occaecat enim do exercitation fugiat adipisicing Lorem anim Lorem adipisicing aute consequat."
         },
         {
             "id": "4",
-            "nombre": "Producto XYZ",
-            "precio": "6000",
+            "nombre": "StarWars 4",
+            "precio": 60,
             "imagen": "https://i.ibb.co/C1VKkRC/producto-4.png",
-            "categoria": "Star wars",
-            "descripcion": "Voluptas voluptatum quibusdam similique, class debitis alias maecenas eveniet ridiculus, facilis fusce! Ullam conubia? Sociis, minima malesuada habit."
+            "categoria": "StarWars",
+            "descripcion": "Culpa enim sint tempor dolore tempor dolore amet duis velit. Deserunt duis fugiat esse duis deserunt quis. Laboris minim pariatur magna do. Non ea magna adipisicing velit laboris est proident aute nostrud quis irure esse sint nisi. Eu id minim ea anim elit magna consequat deserunt officia cupidatat aliquip ea."
         },
         {
             "id": "5",
-            "nombre": "Producto XYZ",
-            "precio": "6000",
+            "nombre": "StarWars 5",
+            "precio": 6000,
             "imagen": "https://i.ibb.co/5xrv1Xq/producto-5.png",
-            "categoria": "Star wars",
-            "descripcion": "Voluptas voluptatum quibusdam similique, class debitis alias maecenas eveniet ridiculus, facilis fusce! Ullam conubia? Sociis, minima malesuada habit."
+            "categoria": "StarWars",
+            "descripcion": "Pariatur labore quis reprehenderit non tempor tempor et. Aliquip anim deserunt laboris consectetur labore ipsum in sint mollit aliqua laboris Lorem sit mollit. Elit cillum dolor cillum excepteur adipisicing laboris esse reprehenderit ullamco quis voluptate."
         },
         {
             "id": "6",
-            "nombre": "Producto XYZ",
-            "precio": "6000",
+            "nombre": "StarWars 6",
+            "precio": 60,
             "imagen": "https://i.ibb.co/VjsTyxm/producto-6.png",
-            "categoria": "Star wars",
-            "descripcion": "Voluptas voluptatum quibusdam similique, class debitis alias maecenas eveniet ridiculus, facilis fusce! Ullam conubia? Sociis, minima malesuada habit."
+            "categoria": "StarWars",
+            "descripcion": "Aute cillum tempor elit laborum voluptate in fugiat et culpa labore ut voluptate. Ipsum velit adipisicing ullamco deserunt proident incididunt commodo labore qui tempor. Ullamco tempor eu velit magna duis. Irure dolor ad deserunt dolore ullamco esse amet Lorem dolore non magna nostrud. Amet enim sint elit occaecat est qui consequat proident ullamco minim minim labore occaecat. Lorem culpa magna ut enim incididunt proident cillum velit. Cillum consectetur voluptate aliquip est dolore enim cupidatat pariatur aliquip magna consectetur minim in minim."
         },
         {
             "id": "7",
-            "nombre": "Control XYZ",
-            "precio": "6000",
+            "nombre": "Consolas 1",
+            "precio": 60,
             "imagen": "https://i.ibb.co/WyzMJtC/consola-1.png",
             "categoria": "Consolas",
-            "descripcion": "Voluptas voluptatum quibusdam similique, class debitis alias maecenas eveniet ridiculus, facilis fusce! Ullam conubia? Sociis, minima malesuada habit."
+            "descripcion": "Culpa ullamco laboris et aliqua officia in tempor. Exercitation irure eiusmod ipsum et nulla enim aliquip dolore irure est labore. Exercitation mollit velit eiusmod nulla pariatur exercitation nostrud non ullamco sint exercitation. Officia ex nisi in culpa nostrud officia irure. Officia labore deserunt ex labore officia in dolor."
         },
         {
             "id": "8",
-            "nombre": "Control y consola XYZ",
-            "precio": "6000",
+            "nombre": "Consolas 2",
+            "precio": 60,
             "imagen": "https://i.ibb.co/0BpJthg/consola-2.png",
             "categoria": "Consolas",
-            "descripcion": "Voluptas voluptatum quibusdam similique, class debitis alias maecenas eveniet ridiculus, facilis fusce! Ullam conubia? Sociis, minima malesuada habit."
+            "descripcion": "Nisi ut adipisicing sit dolor. Eiusmod id laboris ullamco Lorem nisi nulla et. Commodo quis ea veniam ea exercitation veniam veniam labore. Non duis quis fugiat non."
         },
         {
             "id": "9",
-            "nombre": "Consola XYZ",
-            "precio": "6000",
+            "nombre": "Consolas 3",
+            "precio": 60,
             "imagen": "https://i.ibb.co/JQjVwYX/consola-3.png",
             "categoria": "Consolas",
-            "descripcion": "Voluptas voluptatum quibusdam similique, class debitis alias maecenas eveniet ridiculus, facilis fusce! Ullam conubia? Sociis, minima malesuada habit."
+            "descripcion": "Officia magna sint aliqua consequat excepteur commodo veniam velit. Reprehenderit incididunt sunt amet sint culpa non excepteur adipisicing incididunt aliquip. Velit ullamco magna deserunt et pariatur reprehenderit dolor. Velit ut magna et labore id quis. Fugiat commodo duis et reprehenderit."
         },
         {
             "id": "10",
-            "nombre": "Consola XYZ",
-            "precio": "6000",
+            "nombre": "Consola 4",
+            "precio": 60,
             "imagen": "https://i.ibb.co/b3xr74X/consola-4.png",
             "categoria": "Consolas",
-            "descripcion": "Voluptas voluptatum quibusdam similique, class debitis alias maecenas eveniet ridiculus, facilis fusce! Ullam conubia? Sociis, minima malesuada habit."
+            "descripcion": "Dolor ex elit non ullamco cupidatat eu laborum mollit Lorem elit magna. Laboris id velit sit excepteur incididunt incididunt ad in laborum ex. Minim nostrud nostrud esse ullamco veniam dolor. Esse proident id aliqua ea. Nostrud mollit adipisicing est officia fugiat mollit. Ipsum pariatur commodo tempor voluptate mollit incididunt aliqua consectetur irure esse irure anim nostrud in."
         },
         {
             "id": "11",
-            "nombre": "Consola XYZ",
-            "precio": "6000",
+            "nombre": "Consola 5",
+            "precio": 60,
             "imagen": "https://i.ibb.co/SrSD1fz/consola-5.png",
             "categoria": "Consolas",
-            "descripcion": "Voluptas voluptatum quibusdam similique, class debitis alias maecenas eveniet ridiculus, facilis fusce! Ullam conubia? Sociis, minima malesuada habit."
+            "descripcion": "Eiusmod amet aliquip enim nulla dolore est veniam anim velit est velit quis nostrud commodo. Irure in ex deserunt adipisicing Lorem non duis do voluptate excepteur id aute laborum aliquip. Qui ullamco magna incididunt quis laboris sunt."
         },
         {
             "id": "12",
-            "nombre": "Game Boy Color",
-            "precio": "6000",
+            "nombre": "Consola 6",
+            "precio": 60,
             "imagen": "https://i.ibb.co/SX5xWzC/consola-6.png",
             "categoria": "Consolas",
-            "descripcion": "Voluptas voluptatum quibusdam similique, class debitis alias maecenas eveniet ridiculus, facilis fusce! Ullam conubia? Sociis, minima malesuada habit."
+            "descripcion": "Mollit nostrud commodo mollit est non eu enim elit ex quis fugiat consequat commodo eiusmod. Duis esse commodo velit nulla nulla velit. Reprehenderit sit incididunt minim ullamco laborum esse ad. Aute proident adipisicing magna eu commodo irure tempor magna. Lorem est laborum sint aliqua adipisicing."
         },
         {
             "id": "13",
             "nombre": "Camisa Atari",
-            "precio": "6000",
+            "precio": 60,
             "imagen": "https://i.ibb.co/B3V2KrM/diversos-1.png",
             "categoria": "Diversos",
-            "descripcion": "Voluptas voluptatum quibusdam similique, class debitis alias maecenas eveniet ridiculus, facilis fusce! Ullam conubia? Sociis, minima malesuada habit."
+            "descripcion": "Lorem incididunt ipsum consequat enim ex ut ut occaecat et ea est. Enim cupidatat in minim cillum minim esse aute anim. Aute magna velit cupidatat cupidatat fugiat non velit laboris nostrud. Tempor reprehenderit labore elit dolore exercitation veniam officia nostrud. Consectetur deserunt sit amet et ea ullamco sunt occaecat nostrud. Proident excepteur culpa est pariatur."
         },
         {
             "id": "14",
             "nombre": "Camisa SNES",
-            "precio": "6000",
+            "precio": 60,
             "imagen": "https://i.ibb.co/r2L7LDq/diversos-2.png",
             "categoria": "Diversos",
-            "descripcion": "Voluptas voluptatum quibusdam similique, class debitis alias maecenas eveniet ridiculus, facilis fusce! Ullam conubia? Sociis, minima malesuada habit."
+            "descripcion": "Amet sint consequat veniam Lorem. Ullamco ad consequat incididunt occaecat irure quis labore veniam enim aliquip et voluptate mollit. Est commodo mollit labore reprehenderit est aliquip culpa deserunt culpa officia exercitation enim aliqua. Adipisicing in do fugiat ex minim irure laboris aliqua incididunt exercitation."
         },
         {
             "nombre": "Control y consola XYZ",
-            "precio": "6000",
+            "precio": 60,
             "imagen": "https://i.ibb.co/NxfKpVZ/diversos-3.png",
             "id": "15",
             "categoria": "Diversos",
-            "descripcion": "Voluptas voluptatum quibusdam similique, class debitis alias maecenas eveniet ridiculus, facilis fusce! Ullam conubia? Sociis, minima malesuada habit."
+            "descripcion": "Mollit ad quis do et Lorem Lorem. Esse quis nostrud aliqua ad pariatur aliquip esse eu anim dolore ipsum aliquip ullamco. Occaecat anim adipisicing dolor excepteur non adipisicing sit elit aute voluptate esse."
         },
         {
             "nombre": "Control y consola XYZ",
-            "precio": "6000",
+            "precio": 60,
             "imagen": "https://i.ibb.co/0yzSJ50/diversos-4.png",
             "id": "16",
             "categoria": "Diversos",
-            "descripcion": "Voluptas voluptatum quibusdam similique, class debitis alias maecenas eveniet ridiculus, facilis fusce! Ullam conubia? Sociis, minima malesuada habit."
+            "descripcion": "Pariatur dolor ad cupidatat dolore deserunt sint. Ea exercitation anim nostrud officia. Ullamco eiusmod reprehenderit cupidatat nisi aliqua. Laboris laborum aliqua ipsum officia nisi incididunt velit sit amet velit."
         },
         {
             "nombre": "Control y consola XYZ",
-            "precio": "6000",
+            "precio": 60,
             "id": "17",
             "imagen": "https://i.ibb.co/LpY04k4/diversos-5.png",
             "categoria": "Diversos",
-            "descripcion": "Voluptas voluptatum quibusdam similique, class debitis alias maecenas eveniet ridiculus, facilis fusce! Ullam conubia? Sociis, minima malesuada habit."
+            "descripcion": "Enim velit aliqua magna officia ullamco magna tempor voluptate dolor officia est incididunt in esse. Excepteur sit pariatur quis laborum voluptate anim veniam ex commodo esse laborum esse proident officia. Laborum irure minim exercitation labore consequat dolore culpa eiusmod. Duis aliquip exercitation ipsum voluptate tempor duis et. Lorem incididunt ipsum ea eiusmod ea laborum amet."
         },
         {
             "nombre": "Producto XYZ",
-            "precio": "6000",
+            "precio": 60,
             "id": "18",
             "imagen": "https://i.ibb.co/JdfLkV6/diversos-6.png",
             "categoria": "Diversos",
-            "descripcion": "Voluptas voluptatum quibusdam similique, class debitis alias maecenas eveniet ridiculus, facilis fusce! Ullam conubia? Sociis, minima malesuada habit."
+            "descripcion": "Esse nisi proident nulla quis non fugiat ad. Qui nostrud voluptate Lorem ipsum. Velit est non exercitation nostrud irure excepteur dolore id ullamco do. Mollit pariatur non dolor commodo id minim ut fugiat reprehenderit minim cillum consectetur irure. Ad enim non elit incididunt veniam nulla minim consequat duis. Laborum cillum mollit anim laborum tempor."
         }
     ]
 }

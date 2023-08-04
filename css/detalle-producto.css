@@ -1,4 +1,4 @@
-.detalle-producto {
+.detalle-producto, .productos-similares {
     padding: 3rem 5%;
 }
 
@@ -39,6 +39,9 @@
 
 /* Estilos para tablets */
 @media (max-width: 768px) {
+    .detalle-producto, .productos-similares {
+        padding: 1rem 3%;
+    }
 
     .detalle-producto__imagen img {
         width: 200px;
@@ -67,8 +70,8 @@
   /* Estilos para móviles */
   @media (max-width: 480px) {
     
-    .detalle-producto {
-        padding: 1rem 3%;
+    .detalle-producto, .productos-similares {
+        padding: 1rem 1%;
     }
     .detalle-producto__info {
         flex-direction: column;
